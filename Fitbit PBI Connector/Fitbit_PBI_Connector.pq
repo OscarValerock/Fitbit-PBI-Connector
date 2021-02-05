@@ -2,12 +2,12 @@
 
 section Fitbit_PBI_Connector;
 
-client_id = "XXXX";//from the app
+client_id = "XXXX";//from the app https://dev.fitbit.com/apps/details
 redirect_uri = "https://oauth.powerbi.com/views/oauthredirect.html";
 authorize_uri = "https://www.fitbit.com/oauth2/authorize";
 windowWidth = 720;
 windowHeight = 1024;
-UserID = "XXXX"; //gotofitbit.com and then in the panel view your profile, in the URL will appear your user
+UserID = "XXXX"; //fitbit.com and then in the panel view your profile, in the URL will appear your user
 
 [DataSource.Kind="Fitbit_PBI_Connector", Publish="Fitbit_PBI_Connector.Publish"]
 
